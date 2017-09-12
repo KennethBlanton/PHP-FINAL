@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><title>React App</title><link href="/static/css/main.cacbacc7.css" rel="stylesheet"></head><body>
+<form id="uploadForm" method="post" enctype="multipart/form-data" action="http://circuslabs.net/~michele.james/build/php/handle_file_uploader.php">
+  <label>File to upload: </label>
+  <input type="file" name="image" id="file" /><br />
+
+  <label>Titel: </label>
+  <input type="text" name="name" id="name" /><br />
+
+  <label>Description: </label>
+  <input type="text" name="description" id="description"/><br />
+
+  <select type="text" name="category">
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+  </select>
+  <br />
+  <label>I hereby solemnly swear that the content I'm about to upload is not inappropriate in any kind of way. *making swear sign*</label>
+  <input type="checkbox" name="safeCheckbox" />
+  <br />
+  <button type="submit" value="upload" id="uploadButton">Upload</button>
+  <p id="resultMessage"></p>
+</form>
+<br><noscript>You need to enable JavaScript to run this app.</noscript>
+
+<div id="root"></div>
+
+<script type="text/javascript" src="http://circuslabs.net/~michele.james/build/static/js/main.931126f0.js"></script></body></html>
